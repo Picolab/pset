@@ -9,3 +9,8 @@ in the Testing tab of the "psetter" pico, invoke the function with some value fo
 notice that the pico will now have an entity variable containing that value,
 set (indirectly) by the function
 
+## Principles of Operation
+we recently added an option to `http` calls, named `autosend`
+
+when it is present, the HTTP request is asynchronous, and when it completes
+an event will be sent to the designated pico
