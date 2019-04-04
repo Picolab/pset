@@ -1,0 +1,9 @@
+{
+  "picos": [ 
+    { "name": "Echo Server", "rids": [ "echo" ] },
+    { "name": "psetter", "rids": [ "pset" ] },
+  ],
+  "subscriptions": [
+    { "Rx": "psetter", "Tx": "Echo Server", "Rx_role": "psetter", "Tx_role": "echo", "name": "Echo Server" }
+  ]
+}
